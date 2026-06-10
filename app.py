@@ -424,7 +424,7 @@ h3 { font-size: 1rem !important; color: var(--ink-2) !important; }
 }
 
 /* ─── HIDE STREAMLIT CHROME ─── */
-#MainMenu, footer, header { visibility: hidden; }
+
 .block-container { padding-top: 1rem !important; }
 
 /* ─── SCROLLBAR ─── */
