@@ -440,8 +440,7 @@ h3 { font-size: 1rem !important; color: var(--ink-2) !important; }
 # =====================================================
 model = joblib.load("models/best_model.pkl")
 
-model = joblib.load("models/best_model.pkl")
-
+df = pd.read_csv("data/model_dataset.csv")
 X = df.drop(columns=["meter_reading", "log_meter_reading"])
 
 # =====================================================
